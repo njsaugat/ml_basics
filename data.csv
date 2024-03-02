@@ -1,0 +1,28 @@
+Task,Duration (Days),,Start Date,End Date,Predecessors
+Sprint 1: Frontend Development - Whiteboard Interface,,,,,
+- Create app's landing page ,14,0,2024-03-17,2024-03-30,-
+- Develop basic UI layout,14,0,2024-03-17,2024-03-30,Set up project structure
+- Implement user authentication,14,0,2024-03-17,2024-03-30,Set up project structure
+- Initiate frontend logic for whiteboard functionalities,14,0,2024-03-17,2024-03-30,Develop basic UI layout
+Sprint 2: Backend Development - Data Management,,,,,
+- Set up backend server,14,15,2024-03-31,2024-04-13,Sprint 1
+"- Implement database models for users, classes, and whiteboard content",14,15,2024-03-31,2024-04-13,Set up backend server
+- Create API endpoints for data retrieval and storage,14,15,2024-03-31,2024-04-13,"Implement database models for users, classes, and whiteboard content"
+Sprint 3: Integration of Whiteboard and Data Management,,,,,
+- Connect frontend and backend components,14,29,2024-04-14,2024-04-27,"Sprint 1, Sprint 2"
+- Implement features for saving and loading whiteboard content,14,29,2024-04-14,2024-04-27,Connect frontend and backend components
+- Test and debug the integrated system,14,29,2024-04-14,2024-04-27,"Connect frontend and backend components, Implement features for saving and loading whiteboard content"
+Sprint 4: Frontend Development - Chat Interface,,,,,
+- Design the chat interface,14,43,2024-04-28,2024-05-11,Sprint 3
+- Implement real-time messaging functionality,14,43,2024-04-28,2024-05-11,Design the chat interface
+- Ensure seamless integration with the existing frontend,14,43,2024-04-28,2024-05-11,"Design the chat interface, Implement real-time messaging functionality"
+Sprint 5: Backend Development - Chat Functionality,,,,,
+- Set up a chat server,14,57,2024-05-12,2024-05-25,Sprint 4
+- Develop APIs for sending and receiving messages,14,57,2024-05-12,2024-05-25,Set up a chat server
+- Test and integrate chat functionality,14,57,2024-05-12,2024-05-25,Develop APIs for sending and receiving messages
+Sprint 6: History Tracking Implementation,,,,,
+- Design and implement database models for tracking history,14,71,2024-05-26,2024-06-08,Sprint 5
+- Integrate history tracking with the whiteboard and chat,14,71,2024-05-26,2024-06-08,Design and implement database models for tracking history
+- Test and ensure accurate recording of user interactions,14,71,2024-05-26,2024-06-08,Integrate history tracking with the whiteboard and chat
+Sprint 7: Final Testing and Optimization,,,,,
+- Perform unit testing for all features,14,85,2024-06-09,2024-06-22,
